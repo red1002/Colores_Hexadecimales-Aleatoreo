@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #3fd6a8;
+	text-align: center;
+}
+
+.contenedor{
+	width: 200px;
+	background: white;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 9px black;
+}
+
+p{
+	margin: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+button{
+	margin: 10px;
+	width: 120px;
+	height: 30px;
+	font-weight: 600;
+	color: white;
+	background: #3fd6a8;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 1px 1px 3px black;
+}
